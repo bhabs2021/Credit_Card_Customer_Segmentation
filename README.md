@@ -1,7 +1,7 @@
 # Credit_Card_Customer_Segmentation
 
 ## Overview
-This project aims to identify natural groupings within a dataset using unsupervised learning techniques for customer segmentation. By performing clustering, we can better understand customer behaviors, spending patterns, and financial profiles.
+This project aims to identify natural groupings within a dataset using unsupervised learning techniques for customer segmentation. Clustering enables us to understand customer behaviours, spending patterns, and financial profiles better.
 
 ## Features & Technologies Used
 ### Libraries: 
@@ -35,20 +35,20 @@ Used iterative imputation techniques.
 ### Feature Engineering: 
 Removed highly correlated features to improve clustering.
 
-### Standardization: 
-Applied StandardScaler to normalize dataset for PCA.
+### Standardisation: 
+Applied StandardScaler to normalise the dataset for PCA.
 
 ### Dimensionality Reduction: 
 Retained six principal components.
 
 ## Clustering Approach
 Determined the optimal number of clusters using the Elbow method.
-Applied different clustering techniques and compared their results using Silhouette Score.
-Visualized clustering results using scatter plots and heatmaps.
+Different clustering techniques were applied, and their results were compared using the Silhouette Score.
+Visualised clustering results using scatter plots and heatmaps.
 
 ## Results
 Best Performing Algorithm: K-Means clustering achieved a Silhouette Score of 0.32.
-DBSCAN struggled due to lack of distinct clusters.
+DBSCAN struggled due to a lack of distinct clusters.
 GMM had a low silhouette score (0.08), indicating weak separation.
 HCA showed overlapping clusters but was useful for hierarchical patterns.
 
@@ -68,4 +68,4 @@ Bhabilsh Limbu - BSc Computer Science (Data Science)
 Execute the program to perform clustering analysis on the dataset 'Customer_Data_kaggle'
 
 ## License
-This project is licensed under the Apache 2.0
+This project is licensed under the Apache 2.0 license.
