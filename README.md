@@ -61,11 +61,11 @@ Improve cluster interpretability using domain-specific insights.
 ## Data Source
 The dataset used in this project is sourced from **Kaggle**. You can find it here: [Customer_Data_Kaggle](<https://www.kaggle.com/code/maralka/clustering-credit-card-customers/input>)
 
-## Contributors
-B.Lims
-
 ## How to Run
 Execute the program to perform clustering analysis on the dataset 'Customer_Data_kaggle'
+
+## Contributors
+B.Lims
 
 ## License
 This project is licensed under the Apache 2.0 license.
